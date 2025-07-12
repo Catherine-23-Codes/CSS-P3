@@ -1,0 +1,13 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(161, 254, 94);
+  border: 2px solid black;
+  margin: 10px;
+
+  /* inline block elem to display in single line*/
+
+  display: inline-block;
+
+  /* display : none is used to remove the elem from being displayed! */
+}

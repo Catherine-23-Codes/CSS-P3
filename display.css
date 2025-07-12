@@ -1,0 +1,9 @@
+h2 {
+  display: inline;
+  background-color: rgb(173, 204, 204);
+}
+
+span {
+  display: block;
+  background-color: dimgrey;
+}

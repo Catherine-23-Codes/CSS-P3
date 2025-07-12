@@ -1,0 +1,9 @@
+.box {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  /* for a circle border radius default is 50 % */
+  border-radius: 50%;
+  /*to get all divs in a single line */
+  display: inline-block;
+}

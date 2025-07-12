@@ -1,0 +1,72 @@
+div {
+  /* height & widht elem */
+  height: 100px;
+  width: 800px;
+
+  /* border*/
+  border-color: brown;
+  border-width: 5px;
+  border-style: solid;
+}
+
+h1 {
+  border-color: rgb(36, 113, 113);
+  border-style: ridge;
+  border-width: 15px;
+}
+
+/* shorthand way to write border */
+h3 {
+  border: 2px dashed rgb(58, 90, 10);
+}
+
+/* border controls */
+
+h1 {
+  border-left-color: red;
+  border-left-style: dashed;
+  border-right-color: red;
+  border-right-style: dashed;
+}
+
+h3 {
+  border-right-color: orange;
+  border-top-color: grey;
+  border-bottom-color: rgb(225, 181, 181);
+  border-width: 15px;
+}
+
+h2 {
+  border-color: rgb(42, 54, 220);
+  border-style: groove;
+  border-width: 20px;
+  border-radius: 125px;
+}
+
+/* padding controls */
+h1 {
+  padding-left: 120px;
+}
+
+button {
+  padding-right: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: 15px solid grey;
+  background-color: yellow;
+}
+button:hover {
+  color: rgb(198, 82, 20);
+  background-color: chartreuse;
+  font-size: larger;
+}
+
+/* margin */
+h1 {
+  margin-bottom: 120px;
+}
+
+h3 {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
