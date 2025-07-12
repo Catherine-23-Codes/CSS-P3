@@ -9,14 +9,18 @@ Importance:
 
 🧠 Mini CSS Cheatsheet
 <br>
-- Box Model → "CPBM" → Content → Padding → Border → Margin
-- Width/Height → % = parent, px = exact
-- Border → "SWC" → Style, Width, Color
-- Border Radius → 50% = circle, px = smooth corners
-- Padding → "Pillow" → inside spacing
-- Margin → "Moat" → outside spacing
-- Display → Block, Inline, None (BIN trick)
-- Inline-block → Inline + block combo
-- % Units → Relative to parent
-- em/rem → em = element, rem = root
-- Block vs Inline → "Brick vs Ink"
+
+| Concept               | Summary                                                      |
+|-----------------------|--------------------------------------------------------------|
+| **Box Model**         | Consists of Content, Padding, Border, and Margin (`CPBM`).   |
+| **Width / Height**    | `%` adapts to parent size; `px` sets a fixed dimension.      |
+| **Border**            | Defined by Style, Width, and Color (`SWC`).                  |
+| **Border Radius**     | `50%` creates circles; `px` smooths corners.                 |
+| **Padding**           | Adds space inside the element, between content and border.   |
+| **Margin**            | Adds space outside the element, separating it from others.   |
+| **Display**           | Defines layout behavior: `block`, `inline`, or `none`.       |
+| **Inline-block**      | Combines inline placement with block-level sizing control.   |
+| **Percentage Units**  | Dimensions scale relative to the parent element.             |
+| **em / rem Units**    | `em`: relative to parent font size; `rem`: relative to root. |
+| **Block vs Inline**   | Block elements stack vertically; Inline elements flow in text (`Brick vs Ink`). |
+
